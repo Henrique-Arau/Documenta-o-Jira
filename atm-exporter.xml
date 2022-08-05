@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>PEARADDDUQ</projectKey>
+    <exportDate>2022-08-05 02:26:54 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="27075477" key="PEARADDDUQ-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Henrique Araujo</createdBy>
+            <createdOn>2022-08-05 01:16:59 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar5 uma conta]]></name>
+            <objective><![CDATA[Verificar funcionalidade de login]]></objective>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[<strong>Given</strong> que o cliente esteja na tela de login<br /><strong>And&nbsp;</strong>n&atilde;o esteja cadastrado no sistema<br /><strong>When&nbsp;</strong>clicar em &quot;criar conta&quot;<br /><strong>Then&nbsp; ser&aacute; redirecionado para uma tela de cria&ccedil;&atilde;o de nova conta</strong>]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="27075791" key="PEARADDDUQ-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Henrique Araujo</createdBy>
+            <createdOn>2022-08-05 01:31:16 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[Web]]></label>
+                <label><![CDATA[Sprint1]]></label>
+            </labels>
+            <name><![CDATA[Cliente sem cadastro tenta fazer login]]></name>
+            <objective><![CDATA[Aparecer uma mensagem falando que essa conta n&atilde;o existe&nbsp;]]></objective>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Deprecated]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar um usu&aacute;rio X<br /><br />]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar tela de Login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Username no campo &quot;username&quot;]]></description>
+                        <testData><![CDATA[Massas do cliente]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="27075808" key="PEARADDDUQ-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Henrique Araujo</createdBy>
+            <createdOn>2022-08-05 01:33:59 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[Web]]></label>
+                <label><![CDATA[Sprin1]]></label>
+            </labels>
+            <name><![CDATA[Cliente com cadastro informa dados incorretos de acessar]]></name>
+            <objective><![CDATA[<p><strong>Mostra&nbsp;</strong>uma mensagem surgir&aacute; avisando que a senha est&aacute; incorreta</p>]]></objective>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[<p><strong>&nbsp;</strong>que o cliente esteja na tela de login</p><p>adicione um username correto</p> escreva uma senha incorreta<br /><br />]]></description>
+                        <expectedResult><![CDATA[<p>uma mensagem surgir&aacute; avisando que a senha est&aacute; incorreta</p>]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
